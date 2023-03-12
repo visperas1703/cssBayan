@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .bayan {
     background-color: rgb(121, 41, 187);
     width: auto;
-    height: 100vh;
+    height: 1000vh;
     background-size: cover;
     font-family: 'Kanit', sans-serif;
     text-decoration: none;
@@ -72,7 +72,7 @@ header{
 .item_btn {
     background-color: rgb(121, 41, 187);
     color: white;
-    font-size: 70px;
+    font-size: 48px;
     border: none;
     width: 1200px;
     text-align: left;
@@ -84,6 +84,7 @@ header{
 }
 
 .item_bayan {
+    margin-top: 20px;
     z-index: 1;
     display: none;
     position: absolute;
@@ -92,15 +93,14 @@ header{
 }
 
 .item_bayan a {
-    text-decoration: none;
-    display: block;
-    color: white;
-    font-size: 30pt;
+    margin-left:400px;
 }
 
 .item_bayan a:hover {
     background-color: rgb(121, 41, 187);
+    
 }
+
 
 .item:hover .item_bayan {
     display: block;  
@@ -109,3 +109,9 @@ header{
 .item:hover .item_btn {
     background-color: rgb(121, 41, 187);
 }
+
+.meme:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
