@@ -61,6 +61,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 header{
     padding-top: 100px;
+    margin-bottom: 50px;
     font-size: 400;
     text-align: left;
     font-size: 48pt;
@@ -73,18 +74,17 @@ header{
     background-color: rgb(121, 41, 187);
     color: white;
     font-size: 48px;
-    border: none;
+    border: 1px solid;
     width: 1200px;
-    text-align: left;
+    text-align: center;
 }
 
 .item {
+    margin-top: 0px;
     position: relative;
-    display: inline-block;
 }
 
 .item_bayan {
-    margin-top: 20px;
     z-index: 1;
     display: none;
     position: absolute;
@@ -93,12 +93,11 @@ header{
 }
 
 .item_bayan a {
-    margin-left:400px;
+    margin-left: 300px;
 }
 
 .item_bayan a:hover {
     background-color: rgb(121, 41, 187);
-    
 }
 
 
@@ -112,6 +111,8 @@ header{
 
 .meme:hover {
     -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
+    -ms-transform: scale(1.5);
     transform: scale(1.2);
-  }
+}
+
+
